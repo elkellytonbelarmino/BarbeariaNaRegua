@@ -14,6 +14,11 @@ header {
     color: #C78C19;
 }
 
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
 p {
     text-align: center;
 }
