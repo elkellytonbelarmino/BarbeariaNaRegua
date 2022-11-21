@@ -8,6 +8,10 @@ header {
     font-size: 20px;
 }
 
+#missao {
+    margin: 10px 0;
+}
+
 .beneficios {
     position: absolute;
     padding: 50px;
