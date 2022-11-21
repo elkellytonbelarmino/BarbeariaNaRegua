@@ -5,10 +5,27 @@ header {
 
 .principal {
     padding: 50px;
+    font-size: 20px;
 }
 
 .beneficios {
+    position: absolute;
     padding: 50px;
+    color: #C78C19;
+}
+
+p {
+    text-align: center;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+.itens {
+    font-style: italic;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .caixa {
