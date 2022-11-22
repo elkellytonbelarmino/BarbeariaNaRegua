@@ -152,10 +152,9 @@ td, th {
 }
 
 .principal {
-    display: inline-block;
-    margin: 0 200px;
-    position: relative;
-    padding: 50px 0;
+    display: block;
+    margin: 0 25px;
+    padding: 20px 25px;
     font-size: 20px;
     font-style: italic;
     text-align: right;
@@ -168,6 +167,7 @@ td, th {
 
 .sobre, .beneficios {
     color: #000000;
+    padding: 10px 0;
     font-weight: bold;
     text-align: left;
 }
