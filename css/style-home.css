@@ -4,18 +4,28 @@ header {
 }
 
 .principal {
-    padding: 50px;
+    display: inline-block;
+    margin: 4% 0px;
+    position: absolute;
+    padding: 20px 170px;
     font-size: 20px;
+    font-style: italic;
+    width: 20%;
+    text-align: center;
+    color: #C78C19;
 }
 
 #missao {
-    margin: 10px 0;
+    padding: 30px;
 }
 
 .beneficios {
+    margin: 3% 0;
+    font-size: 20px;
     position: absolute;
-    padding: 50px;
+    padding: 150px;
     color: #C78C19;
+    right: 100px;
 }
 
 nav a:hover {
@@ -23,7 +33,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-p {
+fieldset {
     text-align: center;
 }
 
@@ -65,7 +75,7 @@ nav a {
 footer {
     text-align: center;
     background: url("../img/bg.jpg");
-    padding: 40px 0;
+    padding: 99px 0;
 }
 
 .copyright {
