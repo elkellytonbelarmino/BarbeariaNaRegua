@@ -104,6 +104,7 @@ form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
+    text-align: left;
 }
 
 .input-padrao {
@@ -149,4 +150,71 @@ td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+
+.principal {
+    display: inline-block;
+    margin: 0 200px;
+    position: relative;
+    padding: 50px 0;
+    font-size: 20px;
+    font-style: italic;
+    text-align: right;
+    color: #C78C19;
+}
+
+#missao {
+    padding: 30px;
+}
+
+.sobre, .beneficios {
+    color: #000000;
+    font-weight: bold;
+    text-align: left;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+fieldset {
+    text-align: left;
+}
+
+.itens {
+    font-style: italic;
+    text-align: center;
+    color: #C78C19;
+
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.localizacao {
+    padding: 20px 0;
+}
+
 
