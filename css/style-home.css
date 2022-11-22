@@ -19,6 +19,10 @@ header {
     padding: 30px;
 }
 
+.sobre {
+    color: #FFFFFF;
+}
+
 .beneficios {
     margin: 3% 0;
     font-size: 20px;
@@ -37,7 +41,7 @@ fieldset {
     text-align: center;
 }
 
-.titulo-centralizado {
+.titulo-centralizado-beneficios {
     text-align: center;
 }
 
