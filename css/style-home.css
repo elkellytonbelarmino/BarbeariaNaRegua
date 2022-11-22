@@ -5,12 +5,11 @@ header {
 
 .principal {
     display: inline-block;
-    margin: 4% 0px;
-    position: absolute;
-    padding: 20px 170px;
+    margin: 0 200px;
+    position: relative;
+    padding: 50px 170px;
     font-size: 20px;
     font-style: italic;
-    width: 20%;
     text-align: center;
     color: #C78C19;
 }
@@ -20,17 +19,19 @@ header {
 }
 
 .sobre {
-    color: #FFFFFF;
+    color: #000000;
+    font-weight: bold;
+    text-align: left;
 }
 
-.beneficios {
+/*.beneficios {
     margin: 3% 0;
     font-size: 20px;
     position: absolute;
     padding: 150px;
     color: #C78C19;
     right: 100px;
-}
+}*/
 
 nav a:hover {
     color: #C78C19;
@@ -42,13 +43,16 @@ fieldset {
 }
 
 .titulo-centralizado-beneficios {
-    text-align: center;
+    text-align: left;
+    color: black;
+    font-weight: bold;
 }
 
 .itens {
     font-style: italic;
     text-align: center;
-    color: #FFFFFF;
+    color: #C78C19;
+
 }
 
 .caixa {
@@ -74,6 +78,10 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+
+.localizacao {
+    padding: 20px 0;
 }
 
 footer {
