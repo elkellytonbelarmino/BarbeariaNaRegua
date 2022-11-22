@@ -91,6 +91,7 @@ footer {
     margin: 20px 0;
 }
 
+/* O Css da página principal começa aqui */
 main {
     width: 940px;
     margin: 0 auto;
@@ -184,8 +185,8 @@ fieldset {
 .itens {
     font-style: italic;
     text-align: center;
-    color: #C78C19;
-
+    color: #000000;
+    padding: 80px 0;
 }
 
 .caixa {
