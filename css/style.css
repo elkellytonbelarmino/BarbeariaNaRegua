@@ -1,6 +1,6 @@
 header {
-    background: #FFA500;
-    padding: 50px 0;
+    background-image: linear-gradient(to right, #C78C19, #083263);
+    padding: 20px 0;
 }
 
 .caixa {
@@ -205,9 +205,10 @@ nav li {
     margin: 0 0 0 15px;
 }
 
+/*para editar o texto home/produtos/ agendamento/contato*/
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: #FFFF00;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
