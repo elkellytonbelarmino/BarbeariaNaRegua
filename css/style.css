@@ -70,24 +70,15 @@ body {
     margin: 10px 0 0;
 }
 
-.texto-final-home p {
-    text-align: center;
-    margin: 0 0 20px 0;
-}
-
 .conteudo-beneficios {
     width: 640px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .lista-beneficios {
     width: 40%;
     display: inline-block;
-    vertical-align: top;
-}
-
-.imagem-beneficios {
-    width: 60%;
 }
 
 .video {
@@ -200,14 +191,6 @@ td, th {
 mapa p {
     margin: 0 0 2em;
     text-align: center;
-}
-
-.beneficios {
-    color: #000000;
-    padding: 3em 0;
-    font-weight: bold;
-    text-align: left;
-    background: #888888;
 }
 
 /*Cor de fundo do menu do header*/
