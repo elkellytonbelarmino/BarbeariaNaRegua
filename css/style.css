@@ -74,14 +74,23 @@ main {
     margin: 0 auto;
 }
 
-.texto-principal-home h2, .mapa p {
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+/*aqui fica todos os textos iniciais exmplo sobre a barbearia e beneficios*/
+.texto-titulo-cabecalho {
     text-align: center;
     font-size: 30px;
     margin: 30px;
+    clear: left;
 }
 
+/*texto descrição do index*/
 .texto-principal-home p {
-    text-align: center;
+    text-align: left;
     padding: 0 0 0.8em;
     margin: 10px;
 }
