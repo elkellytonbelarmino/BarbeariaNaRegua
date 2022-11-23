@@ -9,30 +9,6 @@ header {
     margin: 0 auto;
 }
 
-nav {
-    position: absolute;
-    top: 110px;
-    right: 0px;
-}
-
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-nav a {
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #C78C19;
-    text-decoration: underline;
-}
-
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -56,6 +32,7 @@ nav a:hover {
     font-size: 40px;
 }
 
+/*caixa main contato*/
 .produtos li:active {
     border-color: #088C19;
 }
@@ -95,6 +72,18 @@ footer {
 main {
     width: 940px;
     margin: 0 auto;
+}
+
+.texto-principal-home h2, .mapa p {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.texto-principal-home p {
+    text-align: center;
+    padding: 0 0 0.8em;
+    margin: 10px;
 }
 
 form {
@@ -155,7 +144,7 @@ td, th {
 .principal {
     display: block;
     margin: 0 25px;
-    padding: 20px 25px;
+    padding: 3em 0;
     font-size: 20px;
     font-style: italic;
     text-align: left;
@@ -166,15 +155,16 @@ td, th {
     padding: 30px;
 }
 
-.sobre, .beneficios {
+.beneficios {
     color: #000000;
     padding: 10px 0;
     font-weight: bold;
     text-align: left;
 }
 
+/*Cor de fundo do menu do header*/
 nav a:hover {
-    color: #C78C19;
+    color: #d3d3d3;
     text-decoration: underline;
 }
 
