@@ -1,5 +1,5 @@
 header {
-    background-image: linear-gradient(to right, #C78C19, #083263);
+    background-image: linear-gradient(#C78C19, #083263);
     padding: 20px 0;
 }
 
@@ -7,6 +7,20 @@ header {
     position: relative;
     width: 940px;
     margin: 0 auto;
+}
+
+body {
+    background: #FEFEFE;
+}
+
+.principal {
+    display: block;
+    margin: 0 25px;
+    padding: 3em 0;
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+    color: #C78C19;
 }
 
 .produtos {
@@ -175,16 +189,6 @@ td, th {
     padding: 8px 15px;
 }
 
-.principal {
-    display: block;
-    margin: 0 25px;
-    padding: 3em 0;
-    font-size: 20px;
-    font-style: italic;
-    text-align: left;
-    color: #C78C19;
-}
-
 #missao {
     padding: 30px;
 }
@@ -203,11 +207,12 @@ mapa p {
     padding: 3em 0;
     font-weight: bold;
     text-align: left;
+    background: #888888;
 }
 
 /*Cor de fundo do menu do header*/
 nav a:hover {
-    color: #d3d3d3;
+    color: #FF8C00;
     text-decoration: underline;
 }
 
@@ -216,8 +221,12 @@ fieldset {
 }
 
 .itens {
-    font-style: italic;
-    text-align: center;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.itens:nth-child(2n) {
+    font-weight: bold;
 }
 
 .caixa {
@@ -240,7 +249,7 @@ nav li {
 /*para editar o texto home/produtos/ agendamento/contato*/
 nav a {
     text-transform: uppercase;
-    color: #FFFF00;
+    color: #000000;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
